@@ -10,7 +10,7 @@ span{
     color: rgb(146, 96, 2);
 }
 
-section{
+.flexible{
     display: flex;
 }
 
