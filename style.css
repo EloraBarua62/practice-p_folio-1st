@@ -20,10 +20,9 @@ h1{
 }
 
 .half-width{
-    width: 50%;
+    width: 40%;
     padding-left: 5%;
     padding-top: 5%;
-    padding-right: 2%;
     padding-bottom: 5%;
 }
 .half-width img{
@@ -43,6 +42,13 @@ h1{
     background-size: 8%;
 }
 
+.bottom-image{
+    background-image: url(images/left-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 10%;
+}
+
 .button-link{
     text-decoration: none;
     color: black;
@@ -51,5 +57,29 @@ h1{
     font-size: 20px;
     font-weight: 800;
     border-radius: 5px;
+}
+
+#experience-heading{
+    margin-left: 5%;
+}
+.experience-boxs{
+    box-shadow: 10px 10px 30px salmon;
+    margin: 6%;
+    border-radius: 2%;
+    border-left: 10px solid;
+}
+
+.full-stack{
+    border-image: linear-gradient(salmon,red);
+    border-image-slice: 1;
+}
+
+.baby-web{
+    border-image: linear-gradient(red,salmon);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
 }
 
